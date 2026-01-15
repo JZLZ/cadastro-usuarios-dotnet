@@ -20,18 +20,22 @@ Este projeto tem como objetivo demonstrar conhecimentos práticos em desenvolvim
 ## 🏗️ Estrutura do Projeto
 
 CadastroUsuarios
-│
+
 ├── Controllers
+
 │ └── UsuarioController.cs
-│
+
 ├── Data
 │ └── UsuarioContext.cs
-│
+
 ├── Models
+
 │ └── Usuario.cs
-│
+
 ├── Program.cs
+
 ├── appsettings.json
+
 └── README.md
 
 
@@ -75,12 +79,15 @@ http://localhost:5090/swagger/index.html
   "email": "luiz@email.com",
   "senha": "123456"
 }
+```
 
-🗄️ Banco de Dados
+## 🗄️ Banco de Dados
 
 O projeto utiliza SQL Server integrado ao Entity Framework Core.
 
-🎯 Objetivo do Projeto
+
+---
+## 🎯 Objetivo do Projeto
 
 Aplicar conceitos de API REST
 
@@ -92,7 +99,8 @@ Desenvolver um CRUD completo
 
 Servir como projeto de portfólio profissional
 
-📌 Próximas Melhorias
+--- 
+## 📌 Próximas Melhorias
 
 Implementação de DTOs
 
@@ -105,6 +113,7 @@ Tratamento global de erros
 Testes automatizados
 
 Paginação e filtros
+---
 
 👤 Autor
 
